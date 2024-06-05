@@ -1,0 +1,76 @@
+namespace FlatBuffers;
+
+table TestByte{
+    scalar:byte;
+}
+
+table TestInt{
+    scalar:int;
+}
+
+table TestBool{
+    scalar:bool;
+}
+
+table TestArray{
+    array:[int];
+}
+
+table TestString{
+    str:string;
+}
+
+struct Vec3{
+    x:float;
+    y:float;
+    z:float;
+}
+
+table TestStruct1{
+    position:Vec3;
+}
+
+struct Vec4{
+    xyz:Vec3;
+    w:float;
+}
+
+table TestStruct2{
+    quaternion:Vec4;
+}
+
+table num64{
+    testLong:long;
+}
+
+table num32{
+    testInt:int;
+}
+
+union num{
+    bigNum:num64,
+    smallNum:num32
+}
+
+table TestUnion{
+    uni:num;
+}
+
+enum TestEnum:byte{
+    None = 0,
+    One,
+    Two = 2
+}
+
+table TestTable{
+    index:TestEnum;
+    testBool:bool;
+    testInt:int;
+    testString:string;
+    position: Vec3;
+    quaternion: Vec4;
+    array: TestArray;
+    ratio:float;
+}
+
+root_type TestTable;

@@ -1,0 +1,14 @@
+.idea/
+Library/
+Logs/
+obj/
+UserSettings/
+Assembly-CSharp.csproj
+FlatBuffer.sln
+FlatSharp.Editor.csproj
+FlatSharp.Runtime.csproj
+FlatSharp.Tests.csproj
+LIBII.Editor.Editor.csproj
+LIBII.Editor.Runtime.csproj
+Temp/
+FlatBuffers.sln

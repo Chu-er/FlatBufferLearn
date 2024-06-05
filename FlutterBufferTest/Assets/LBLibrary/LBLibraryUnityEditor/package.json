@@ -1,0 +1,30 @@
+{
+  "name": "com.libii.editor",
+  "version": "1.3.0",
+  "displayName": "LBLibraryUnityEditor",
+  "description": "Inspector工具类",
+  "unity": "2019.4",
+  "unityRelease": "0b5",
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "LIBII",
+    "email": "wangchuan@libii.com",
+    "url": "http://git.libii.com/LBFramework/LBLibraryUnityEditor"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.0.148:4873"
+  },
+  "scripts": {
+    "upload": "npm publish"
+  },
+  "samples": [
+    {
+      "displayName": "SampleScene",
+      "description": "Contains sample managed displays and custom attributes",
+      "path": "Samples~/SampleScene"
+    }
+  ]
+}
