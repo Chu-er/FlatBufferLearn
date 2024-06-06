@@ -5,5 +5,5 @@ table ModelData{
 	starLv:int;
 	name:string;
 
-
+	
 }
