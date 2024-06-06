@@ -1,0 +1,9 @@
+namespace TestBF;
+
+table ModelData{
+	level:int;
+	starLv:int;
+	name:string;
+
+
+}
